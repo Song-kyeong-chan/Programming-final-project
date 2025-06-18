@@ -86,8 +86,8 @@ def save_partial(data, count):
     menus_df = pd.DataFrame(menus)
 
     # 저장
-    stores_df.to_csv(f"stores_cafe_{count}.csv", index=False, encoding="utf-8-sig")
-    menus_df.to_csv(f"menus_cafe_{count}.csv", index=False, encoding="utf-8-sig")
+    stores_df.to_csv(f"../data/stores_cafe_{count}.csv", index=False, encoding="utf-8-sig")
+    menus_df.to_csv(f"../data/menus_cafe_{count}.csv", index=False, encoding="utf-8-sig")
 
     print("저장 완료: stores.csv / menus.csv")
 
