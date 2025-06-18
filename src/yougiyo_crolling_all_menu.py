@@ -11,8 +11,6 @@ from selenium.common.exceptions import TimeoutException, StaleElementReferenceEx
 # 설정 
 SCROLL_LIMIT = 15
 SAVE_INTERVAL = 3
-PARTIAL_PREFIX = "yogiyo_partial"
-
 필요_지점키워드 = ['전북대', '덕진', '금암', '본점', '1호', '2호']
 필요_주소키워드 = ['금암동', '덕진동1가']
 전체_가게목록 = []
