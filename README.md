@@ -98,9 +98,16 @@
 - Tkinter (표준 라이브러리)
 
 ### 사용 라이브러리
+
+#### 외부 라이브러리
 - `selenium`
 - `pandas`
 - `matplotlib`
-- `time` (표준 라이브러리)
+- `koreanize-matplotlib`
+  
+#### 표준 라이브러리
+- `sqlite3`
+- `glob`
+- `time`
 
 
